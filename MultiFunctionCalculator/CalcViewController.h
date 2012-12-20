@@ -10,4 +10,12 @@
 
 @interface CalcViewController : UIViewController
 
+-(IBAction)Calculate;
+@property(nonatomic,strong) IBOutlet UITextField *firstnum;
+@property(nonatomic,strong) IBOutlet UITextField *secondnum;
+@property(nonatomic,retain) IBOutlet UISegmentedControl *decide;
+@property(nonatomic,strong) IBOutlet UILabel *finalResult;
+
+-(IBAction)Resign;
+
 @end

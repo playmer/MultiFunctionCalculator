@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE92CCE915A62728002E32B9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92CCE815A62728002E32B9 /* Icon.png */; };
+		EE92CCEC15A6274D002E32B9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92CCEB15A6274D002E32B9 /* background.png */; };
+		EE92CCEE15A62761002E32B9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92CCED15A62761002E32B9 /* Icon.png */; };
+		EE92CCF015A6276E002E32B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE92CCEF15A6276E002E32B9 /* Default.png */; };
 		EEB59FBB159A7013006B017F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB59FBA159A7012006B017F /* UIKit.framework */; };
 		EEB59FBD159A7013006B017F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB59FBC159A7013006B017F /* Foundation.framework */; };
 		EEB59FBF159A7013006B017F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB59FBE159A7013006B017F /* CoreGraphics.framework */; };
@@ -18,17 +22,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE92CCE815A62728002E32B9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EE92CCEB15A6274D002E32B9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EE92CCED15A62761002E32B9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EE92CCEF15A6276E002E32B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EEB59FB6159A7012006B017F /* MultiFunctionCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFunctionCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB59FBA159A7012006B017F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEB59FBC159A7013006B017F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EEB59FBE159A7013006B017F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EEB59FC2159A7013006B017F /* MultiFunctionCalculator-Info.plist */ = {isa = PBXFileReference; path = "MultiFunctionCalculator-Info.plist"; sourceTree = "<group>"; };
+		EEB59FC2159A7013006B017F /* MultiFunctionCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiFunctionCalculator-Info.plist"; sourceTree = "<group>"; };
 		EEB59FC4159A7013006B017F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEB59FC6159A7013006B017F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EEB59FC8159A7013006B017F /* MultiFunctionCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "MultiFunctionCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		EEB59FC9159A7013006B017F /* CalcAppDelegate.h */ = {isa = PBXFileReference; path = CalcAppDelegate.h; sourceTree = "<group>"; };
+		EEB59FC8159A7013006B017F /* MultiFunctionCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiFunctionCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		EEB59FC9159A7013006B017F /* CalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcAppDelegate.h; sourceTree = "<group>"; };
 		EEB59FCA159A7013006B017F /* CalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcAppDelegate.m; sourceTree = "<group>"; };
-		EEB59FCC159A7013006B017F /* CalcViewController.h */ = {isa = PBXFileReference; path = CalcViewController.h; sourceTree = "<group>"; };
+		EEB59FCC159A7013006B017F /* CalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
 		EEB59FCD159A7013006B017F /* CalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
 		EEB59FD0159A7013006B017F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalcViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +58,8 @@
 		EEB59FAB159A7012006B017F = {
 			isa = PBXGroup;
 			children = (
+				EE92CCEF15A6276E002E32B9 /* Default.png */,
+				EE92CCED15A62761002E32B9 /* Icon.png */,
 				EEB59FC0159A7013006B017F /* MultiFunctionCalculator */,
 				EEB59FB9159A7012006B017F /* Frameworks */,
 				EEB59FB7159A7012006B017F /* Products */,
@@ -90,6 +100,8 @@
 		EEB59FC1159A7013006B017F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE92CCEB15A6274D002E32B9 /* background.png */,
+				EE92CCE815A62728002E32B9 /* Icon.png */,
 				EEB59FC2159A7013006B017F /* MultiFunctionCalculator-Info.plist */,
 				EEB59FC3159A7013006B017F /* InfoPlist.strings */,
 				EEB59FC6159A7013006B017F /* main.m */,
@@ -151,6 +163,10 @@
 			files = (
 				EEB59FC5159A7013006B017F /* InfoPlist.strings in Resources */,
 				EEB59FD1159A7013006B017F /* CalcViewController.xib in Resources */,
+				EE92CCE915A62728002E32B9 /* Icon.png in Resources */,
+				EE92CCEC15A6274D002E32B9 /* background.png in Resources */,
+				EE92CCEE15A62761002E32B9 /* Icon.png in Resources */,
+				EE92CCF015A6276E002E32B9 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				EEB59FD6159A7013006B017F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
